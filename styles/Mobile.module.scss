@@ -1,0 +1,129 @@
+
+
+.mobileNav{
+    display: flex;
+    flex-direction: row;
+    background-color: palevioletred;
+    justify-content: space-around;
+    position: fixed;
+    width: 95vw;
+    bottom: 0;
+    color: white;
+    height: 10vw;
+    align-items: center;
+}
+
+.bottomdiv {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    position: fixed;
+    width: 95vw;
+    bottom: 0;
+    height: 0.5vw;
+}
+
+.mobileCardHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* background-color: yellow; */
+}
+
+.mobileCardFoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 228px;
+
+}
+
+.footerLikes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: -10px;
+    /* background-color: yellow; */
+}
+
+
+
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    height: 100vh;
+  }
+
+
+.imageProf {
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.profName {
+    padding-top: 2px;
+}
+
+.descrp {
+    position: absolute;
+    margin-top: -61px;
+    color: #ededed;
+    left: 20px;
+    font-weight: thin;
+}
+
+.price {
+    position: absolute;
+    margin-top: -40px;
+    color: white;
+    left: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.like{
+    margin-top: 11px;
+    padding-left: 10px;
+}
+
+.comment{
+    font-size: 12px;
+    margin-left: 12px;
+    color: #858585;
+   
+}
+
+.hashtag{
+    font-size: 12px;
+    margin-left: 12px;
+    color: #00059f;
+    line-height: 0.5em;
+}
+.hashdesc{
+    font-size: 12px;
+    margin-left: 12px;
+    color: #858585;
+    line-height: 0.5em;
+}
+
+.likeDes{
+    font-size: 12px;
+    margin-left: 5px;
+    color: #00059f;
+}
+.name{
+    margin-left: 10px;
+    color: #00059f;
+    
+}
+
+.noFav{
+    align-self: center;
+}
+

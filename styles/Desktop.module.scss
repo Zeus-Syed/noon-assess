@@ -1,0 +1,99 @@
+.mobileCardHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* background-color: yellow; */
+}
+
+.footerLikes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: -10px;
+    /* background-color: yellow; */
+}
+
+.deskNav {
+    background-color: palevioletred;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: white;
+}
+
+.navHome{
+ cursor: pointer;
+ margin-right: 60px;
+}
+.navLike{
+ cursor: pointer;
+ margin-right: 40px;
+}
+
+.deskCont{
+ margin-left: 650px;
+ margin-right: 650px;
+}
+
+.imageProf{
+ border-radius: 50%;
+ margin-top: 5px;
+ margin-left: 10px;
+}
+
+.name {
+    margin-left: 10px;
+}
+
+.nameCont{
+    padding-top: 2px;
+}
+
+.descrp {
+    position: absolute;
+    margin-top: -61px;
+    color: #ededed;
+    margin-left: 15px
+}
+
+.price {
+    position: absolute;
+    margin-top: -40px;
+    color: white;
+    margin-left: 15px
+}
+
+.comment{
+    font-size: 12px;
+    margin-left: 12px;
+    color: #858585;
+}
+.hashtag{
+    font-size: 12px;
+    margin-left: 12px;
+    color: #00059f;
+    line-height: 0.5em;
+}
+.hashdesc{
+    font-size: 12px;
+    margin-left: 12px;
+    color: #858585;
+    line-height: 0.5em;
+}
+
+.likeDes{
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.like{
+    margin-top: 11px;
+    padding-left: 10px;
+}
+.noFav{
+    margin-left: 800px;
+    font-size: 20px;
+}
+
